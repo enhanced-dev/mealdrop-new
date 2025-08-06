@@ -35,7 +35,7 @@ const Container = styled.div(
 const StyledContent = styled.div(
   ({ theme: { color } }) => css`
     padding: 24px;
-    background: ${color.badgeBackground};
+    background: ${color.cardBackground};
     border-radius: 0px 0px 8px 8px;
   `
 )
