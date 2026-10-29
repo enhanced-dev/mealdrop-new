@@ -1,3 +1,4 @@
+import { userEvent, within, waitFor, expect } from 'storybook/test';
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 import { CheckoutPage } from './CheckoutPage'
